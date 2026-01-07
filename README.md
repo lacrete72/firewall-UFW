@@ -59,3 +59,7 @@ refuser une connexion sortante [règle] est à remplacer par un port ou un servi
 ```
 sudo ufw deny out [règle]
 ```
+supprimer toutes les règles 
+```
+sudo ufw reset
+```
